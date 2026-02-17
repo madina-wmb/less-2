@@ -72,6 +72,10 @@ font-family: "Manrope", sans-serif;
     gap: 16px;
 }
 
+
+.madina{
+    margin-bottom: 150px;
+}
 .btn-cont{
     font-family: "Manrope", sans-serif;
     font-weight: 700;
@@ -90,7 +94,7 @@ font-family: "Manrope", sans-serif;
 width:500px;
     height:600px;
     border-radius: 16px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 .left{
     margin-top: 90px;

@@ -72,6 +72,10 @@ font-family: "Manrope", sans-serif;
     gap: 16px;
 }
 
+
+.madina{
+    margin-bottom: 150px;
+}
 .btn-cont{
     font-family: "Manrope", sans-serif;
     font-weight: 700;
@@ -90,10 +94,28 @@ font-family: "Manrope", sans-serif;
 width:500px;
     height:600px;
     border-radius: 16px;
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 }
 .left{
     margin-top: 90px;
+}
+
+
+@keyframes silder {
+    0%{background-image: url("./images/img_3.png");}
+    25%{background-image: url("./images/img_2.png");}
+    50%{background-image: url("./images/img_4.png");}
+    75%{background-image: url("./images/img_1.png");}
+    100%{background-image: url("./images/img_5.png");}
+}
+.div{
+    margin: 6rem 12rem;
+    width:600px;
+    height:600px;
+    background-size: 100% 100%;
+    border-radius: 16px;
+    box-shadow: 20px 20px 10px grey;
+    animation:silder 10s linear infinite;
 }
 
 

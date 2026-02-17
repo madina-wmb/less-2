@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     box-sizing: border-box;
     margin: 0;
@@ -128,3 +129,46 @@ width:500px;
 
 
 
+=======
+body{
+    background: black;
+}
+
+.container{
+    width: 1224px;
+    margin: auto;
+}
+
+.arslan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ff{
+   color: white; 
+   margin-bottom: -100px;
+   font-family: 'Bebas Neue' sans-serif;
+    font-size: 35px;
+}
+.st{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+.aq button{
+padding: 15px;
+background: rgb(200, 255, 127);
+border-radius: 30px;
+
+}
+
+.aq{
+    display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.uu{
+    margin-top: -50px;
+}
+>>>>>>> Stashed changes
